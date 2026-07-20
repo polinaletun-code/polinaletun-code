@@ -1,16 +1,54 @@
-## Hi there 👋
+# 🧬 Анализатор GC-состава ДНК
 
-<!--
-**polinaletun-code/polinaletun-code** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Проект по биоинформатике  
+Программа на Python, которая анализирует ДНК-последовательности: считает длину, количество нуклеотидов G и C, вычисляет GC-состав в процентах, строит график и сохраняет результаты в файл.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📊 Что умеет программа
+
+- Принимает список ДНК-последовательностей
+- Считает количество G (гуанин) и C (цитозин)
+- Вычисляет GC-состав в процентах
+- Строит столбчатый график
+- Сохраняет результаты в `results.txt` и график в `gc_plot.png`
+
+---
+
+## 🧪 Пример входных данных
+
+```python
+dna_list = ["ATGCGTACGCTAGCT", "AAATTTCCGGG", "GCCGCCGCCGCCGCC"]
+```
+
+---
+
+## 📈 Визуализация
+
+![График GC-состава](gc_analysis_project/gc_plot.png)
+
+---
+
+## 📂 Структура проекта
+
+```
+gc_analysis_project/
+├── gc_bio_analysis.pynb   # основной код
+├── results.txt            # результаты
+├── gc_plot.png            # график
+└── README.md              # описание
+```
+
+---
+
+## 🚀 Запуск
+
+```bash
+python gc_analysis_project/gc_bio_analysis.pynb
+```
+
+---
+
+## 👩🏼‍🔬 Автор
+
+Полина — студентка 2 курса «Биохимическая инженерия»
